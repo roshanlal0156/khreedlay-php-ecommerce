@@ -1,0 +1,49 @@
+/*
+rgb(245,245,245)
+rgb(220,220,220)
+rgb(169,169,169) */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .container {
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  /* styles for browsers larger than 480px; */
+  .container {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+  .container {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+  .container {
+    width: 1440px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+  .container {
+    width: 2000px;
+  }
+}
