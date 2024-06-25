@@ -4,6 +4,27 @@
   align-items: center;
 }
 
+.header__search {
+  box-shadow: 0 0 4px 0 rgb(214, 213, 213);
+  color: black;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 1rem;
+  flex-grow: 0.8;
+  line-height: 2rem;
+  transition: box-shadow 0.3s;
+}
+.header__search:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 8px 0 rgb(172, 171, 171);
+}
+.header__search:hover {
+  box-shadow: 0 0 8px 0 rgb(172, 171, 171);
+}
+.header__search::placeholder {
+  color: rgb(173, 172, 172);
+}
 .header__nav {
   display: flex;
   gap: 3rem;

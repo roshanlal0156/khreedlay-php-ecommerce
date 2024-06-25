@@ -1,0 +1,46 @@
+.login__wrapper {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 2rem 2rem;
+    box-shadow: 0 0 4px 2px rgb(225, 224, 224);
+}
+
+.login__heading {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.login__wrapper form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login__wrapper form input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+}
+
+.login__wrapper form button {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(147, 193, 61);
+    box-shadow: 0 0 4px 2px rgb(147, 193, 61);
+    border: none;
+    padding: 0.7rem 0;
+    border-radius: 2rem;
+}
+
+.login__new-user {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

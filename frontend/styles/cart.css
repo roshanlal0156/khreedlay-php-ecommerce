@@ -1,0 +1,115 @@
+/* .cart__item-wrapper {
+    width: fit-content;
+    background-color: rgb(198, 224, 235);
+    border: 6vh solid rgba(198, 224, 235, 0.3);
+} */
+/* .cart__item {
+    background-color: rgb(27, 154, 208, 0.6);
+    border: 2vh ridge rgb(27, 154, 208);
+    box-shadow: 0 0 12px 2px rgb(27, 154, 208);
+    border-radius: 1rem;
+    width: fit-content;
+    display: grid;
+    grid-template-rows: calc(20vh);
+    grid-template-columns: 5vw 12vw
+} */
+.cart__no-items {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(194, 192, 192);
+  margin-top: 1rem;
+}
+.cart__items {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cart__item-wrapper {
+  margin-top: 2rem;
+  width: fit-content;
+  background-color: rgb(230, 238, 214);
+  border: 65px solid rgb(230, 238, 214, 0.3);
+  border-left-width: 120px;
+  border-right-width: 120px;
+}
+/* .cart__item {
+  background-color: rgb(147, 193, 61, 0.6);
+  border: 2vh ridge rgb(147, 193, 61);
+  box-shadow: 0 0 12px 2px rgb(147, 193, 61);
+  border-radius: 1rem;
+  width: fit-content;
+  display: grid;
+  grid-template-rows: calc(20vh);
+  grid-template-columns: 5vw 5vw 5vw;
+  justify-content: center;
+  align-items: center;
+} */
+.cart__item {
+  background-color: rgb(147, 193, 61, 0.6);
+  border: 25px ridge rgb(147, 193, 61);
+  box-shadow: 0 0 12px 2px rgb(147, 193, 61);
+  border-radius: 1rem;
+  width: fit-content;
+  display: grid;
+  grid-template-rows: calc(130px);
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+  align-items: center;
+}
+.cart__item-details {
+  text-align: center;
+}
+.cart__item-name {
+}
+.cart__item-price {
+}
+
+.cart__item-qty {
+  text-align: center;
+  /* margin-top: 1rem; */
+}
+.cart__item-qty > label {
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.cart__item-qty > input {
+  padding: 2px;
+  width: 2.5rem;
+  border: none;
+  background-color: rgb(230, 238, 214);
+}
+.cart__item-qty > input:focus {
+  outline: none;
+}
+
+.cart__img-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart__item-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 6px 0 rgb(136, 136, 136);
+}
+
+.cart__img-overlay {
+  position: absolute;
+  width: 90%;
+  height: 60%;
+  top: 20%;
+  left: 5%;
+  background-color: rgba(147, 193, 61, 0.4);
+  mix-blend-mode: multiply;
+  pointer-events: none; /* Allow clicks to pass through the overlay */
+}
